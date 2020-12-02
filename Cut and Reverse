@@ -1,0 +1,8 @@
+function cutAndReverse(input) {
+let half = input.length/2;
+let firstHalf = input.slice(0, half).split(``);
+let secondHalf = input.slice(half).split(``);
+
+console.log(firstHalf.reverse().join(``).trim());
+console.log(secondHalf.reverse().join(``).trim());
+}
